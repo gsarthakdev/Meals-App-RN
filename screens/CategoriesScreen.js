@@ -1,3 +1,4 @@
+import * as React from "react";
 import { FlatList } from 'react-native';
 import CategoryGridTile from '../components/CategoryGridTile';
 

@@ -1,6 +1,7 @@
 import React from 'react';
-import { View, Text, Image, StyleSheet, ScrollView, Button} from 'react-native';
+import { View, Text, Image, StyleSheet, ScrollView, Vibration} from 'react-native';
 import { useLayoutEffect, useContext, } from 'react';
+import * as Haptics from 'expo-haptics';
 
 import List from '../components/MealDetail/List';
 import Subtitle from '../components/MealDetail/Subtitle';
@@ -25,6 +26,7 @@ function MealDetailScreen({ route, navigation }) {
   const mealIsFavorite = favoriteMealIds.includes(mealId);
 
   function changeFavoriteStatusHandler() {
+    Haptics.notificationAsync(Haptics.NotificationFeedbackType.Success)
     if (mealIsFavorite) {
       // favoriteMealsCtx.removeFavorite(mealId);
       dispatch(removeFavorite({id: mealId}));

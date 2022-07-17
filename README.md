@@ -2,6 +2,13 @@
 Many people are intimidated by cooking and may not know where to start. They may also not know what ingredients are needed or how to cook certain dishes. 
 Fresh Eats is a recipe/meals app that provides a wide variety of recipes that are easy to follow and a beautiful UI with imperative information shown at a glance.
 
+# 💻Technologies Used
+• React Native in JavaScript
+
+• Redux for app-wide state
+
+• React Navigation for app-wide navigation
+
 ![image](https://user-images.githubusercontent.com/63082917/178887100-691c88f6-6fba-4672-bd4e-206f08c416f1.png)
 ![image](https://user-images.githubusercontent.com/63082917/178887114-da4cfc9a-fc57-494e-994f-b9b090141889.png)
 ![image](https://user-images.githubusercontent.com/63082917/178887134-e80da66e-81ce-4ecb-991a-9fdebebe39c3.png)
